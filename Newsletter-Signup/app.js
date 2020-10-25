@@ -36,7 +36,7 @@ app.post("/" , function(req , res){
 
     const options = {
         method : "POST",
-        auth : "ram1024:a838ea5a6a61dd1b8443285c0666e3fb2-us2"
+        auth : "ram1024:838ea5a6a61dd1b8443285c0666e3fb2-us2"
     }
     
     const request = https.request(url , options , function(response){

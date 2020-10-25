@@ -1,0 +1,16 @@
+<%- include('partials/header'); -%>
+
+<div class="home">
+    <h1>Home</h1>
+    <p><%= homeText %></p>
+
+    <% myBlogs.map((blog) => { %> 
+        <h3><%= blog.publishTitle %></h3>
+        <p>
+            <%= blog.publishContent.substring(0 , 200) + "..." %>
+            <a href="/posts/<%= blog.publishTitle %>" >Read More.</a>
+        </p>
+    <% }); %>
+</div>
+
+<%- include('partials/footer'); -%>
