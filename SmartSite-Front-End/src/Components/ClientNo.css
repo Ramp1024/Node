@@ -1,0 +1,13 @@
+.client_no_full{
+    width: 100%;
+}
+
+.oops{
+    transform: rotate(90deg);
+    font-size: 100px;
+}
+
+.oops_message{
+    font-family: cursive;
+    font-size: 30px;
+}

@@ -1,0 +1,63 @@
+h2{
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.breadcrumb{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: bolder;
+}
+
+.about-divcontent{
+    padding-left: 30px;
+}
+
+.card-ca{
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: 'Poller One', cursive;
+    margin-bottom: 55px;
+}
+
+table{
+    border: 1px solid black;
+    color: black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+  }
+
+.table-tr{
+    background-color: blue;
+}
+
+table , tr , th {
+    padding: 10px;
+}
+
+.tablehead{
+    color: wheat;
+}
+
+td{
+    padding-left: 50px;
+}
+
+.about-divtablecontent{
+    display: flex;
+}
+
+.about-table{
+    margin: 3vw;
+}
+
+@media (max-width: 768px){
+    .about-divtablecontent{
+        display: block;
+    }
+}

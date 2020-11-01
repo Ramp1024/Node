@@ -1,0 +1,19 @@
+.signup_full{
+    position: relative;
+    background-color: rgb(206, 205, 205);
+    margin: 50px;
+    width: 60%;
+    height: 470px;
+    padding: 50px;
+}
+
+.signup_header{
+    font-size: xx-large;
+    text-align: left;
+    margin-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.form-control{
+    width: 50% !important;
+}

@@ -1,0 +1,61 @@
+.client_info_full{
+    font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.client_info_form{
+   margin-left: 70px;
+}
+
+.client_name_default{
+    text-align: center;
+}
+
+.full_batch_render{
+    width: 100%;
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.get_day{
+    margin-top: 15px;
+}
+
+.get_day > input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.get_night{
+    position: absolute;
+    right: 20%;
+    top: 24.2%;
+}
+
+.get_night > input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.get_percent{
+    margin-top: 10px;
+    position: absolute;
+    right: 13%;
+}
+
+.get_percent > input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.client_update_btn{
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    width: 15%;
+}

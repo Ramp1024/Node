@@ -1,0 +1,60 @@
+
+.formss{
+    background-color: rgba(247, 201, 233, 0.658);
+    color: black;
+    font-weight: bolder; 
+    border-color: palevioletred;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: thick;
+}
+
+.personall{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.personall h5{
+    padding-left: 20px;
+}
+
+.contacttt{
+    width: 70%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: sandybrown;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: thick;
+    margin : 30px;
+}
+
+.contactt h5{
+    color: darkmagenta;
+}
+
+.contactt h6{
+    padding-left: 20px;
+}
+.contactt h4{
+    color: rgb(253, 51, 24);
+    font-weight: bolder;
+    font-size: 2.2em;
+    font-style: italic;
+}
+.contactt{
+    margin-left: 3vw;
+    margin-top: 30px;
+}
+
+.contactt span{
+    display: block;
+}
+
+.contactt p{
+    font-weight: bolder;
+}
+
+.terms{
+    transform: scale(1.1);
+    padding-left: 5vw;
+}

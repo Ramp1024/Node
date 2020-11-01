@@ -1,0 +1,50 @@
+.update_form_full{
+    margin: 50px;
+    background-color: rgb(0, 0 , 0 , 0.7);
+    height: 500px;
+    position: relative;
+    color: white;
+}
+
+.update_header{
+    text-align: left;
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 50px;
+    left: 20px;
+}
+
+.update_tail{
+    margin-top: 20px;
+}
+
+.total_inputs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    top: 30%;
+}
+
+.client_input{
+    background-color: black;
+    width: 30%;
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.client_submit{
+    width: 10%;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.client_info_render{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}

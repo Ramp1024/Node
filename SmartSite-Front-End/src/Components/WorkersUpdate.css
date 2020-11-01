@@ -1,0 +1,39 @@
+.update_header_title{
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    left: 15%;
+    top: 50px;
+}
+
+.worker_update_full{
+    position: relative;
+    height: 300vh;
+}
+
+.worker_list_full{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+}
+
+.worker_list_full::-webkit-scrollbar { width: 0 !important }
+
+.worker_list_full { scrollbar-width: none; }
+
+.supervisor{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.get_batches{
+    width: 100%;
+    height: 100%;
+}
